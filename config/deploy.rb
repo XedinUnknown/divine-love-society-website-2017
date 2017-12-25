@@ -1,5 +1,5 @@
 set :application, 'html'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :repo_url, 'https://github.com/XedinUnknown/divine-love-society-website-2017.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)

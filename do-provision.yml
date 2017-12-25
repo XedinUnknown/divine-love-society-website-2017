@@ -7,7 +7,7 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - <%SSH_PUB_KEY%>
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5uq7wdRK9TZK1/O6SsFtKn+pzU0iaiggqg0pdIK9oryu+CmJq4qP7bzEDLyKGFslB/6hJ/p3lH7gYU4Wbn9Ti+cNT49+0Izfev331u4+GFNXMe2mPqX0SLFCamI5If9HwSFQWgWTP5qft9weNvn4IJEexjaF16YW+GBi5Km/73rF20Ut/5FIQWXKhkLQseqqWL169RUPtiQTh5gnZoeeNXPL3ps25YsFMVC7cQiBKtxZQeBGqJEe4EYLd9ZPsY8pyMraHqrGNjSquDV8F6JeC6hhCCw0z1rf0ul1nC9iBf5NBvuAWaca7vQdxxjCZTW/mW0IAsquSrrECiUlddloX deploy
 
 # Web server
 apt_update: true
